@@ -1,0 +1,29 @@
+Step 1: Start the program
+Step 2: Display the menu:
+->Play Game
+->View Scoreboard
+->Exit
+Step 3: Read the user's choice.
+Step 4: Check the choice.
+Step 5: If choice = 1, perform the following:
+->Ask the user to enter their name
+->Generate a random number between 1 and 100
+->Set attempts = 0
+Step 6: Ask the user to enter a guess number
+Step 7: Increase the attempt counter by 1
+Step 8: Compare the guessed number with the random number
+->If guess is greater than the number, display "Too High"
+->If guess is smaller than the number, display "Too Low"
+->If guess equals the number, display "Correct! Number guessed"
+Step 9: Repeat Steps 6–8 until the correct number is guessed
+Step 10: Open the file scores.txt in append mode
+Step 11: Save the player name and number of attempts in the file
+Step 12: Close the file
+Step 13: Return to the main menu
+Step 14: If choice = 2:
+->Open scores.txt in read mode
+-Display all saved scores (name and attempts)
+Close the file
+Step 15: If choice = 3:
+->Display "Thank you for playing!"
+Step 16: Stop the program
